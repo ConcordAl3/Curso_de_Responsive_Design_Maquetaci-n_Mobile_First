@@ -235,11 +235,45 @@ main .currency--table-container {
     background-repeat: no-repeat;
 }
 
+main .currency--table-date{
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft_orange);
+    border-radius: 8px;
+}
+
+.currency--table-date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm_black);
+}
+
 main .main--currency-table .currency--table-title2 {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
+    font-weight: 300;
     color: var(--secondary_blue);
+}
+
+main .currency--table-date2{
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft_blue);
+    border-radius: 8px;
+}
+
+.currency--table-date2 p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--soft_blue);
 }
 
