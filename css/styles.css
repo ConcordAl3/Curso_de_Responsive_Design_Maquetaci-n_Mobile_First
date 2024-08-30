@@ -324,3 +324,56 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     line-height: 1.8rem;
     color: #808880;
 }
+
+.product--detail-card {
+    width: 90vw;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product--detail-card span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product--detail-card .clock{
+    background-image: url('https://i.postimg.cc/BvtWDkq4/clock.png');
+}
+
+.product--detail-card .eye{
+    background-image: url('https://i.postimg.cc/d1TzNCkf/eye.png');
+}
+
+.product--detail-card .dollar{
+    background-image: url('https://i.postimg.cc/g07CKsJR/dollar-sign.png');
+}
+
+.product--detail-card .check{
+    background-image: url('https://i.postimg.cc/QdfGFhZf/check-circle.png');
+}
+
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just_white);
+}
+
+.product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: justify;
+    color: #808880;
+}
