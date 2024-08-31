@@ -165,7 +165,6 @@ main .main--currency-table-monedas {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    scroll-snap-align: center;
     margin: 0 20px 0 10px;
     font-family: "inter" , "sans-serif";
 }
@@ -275,7 +274,6 @@ main .main--currency-table-comisiones {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    scroll-snap-align: center;
     margin: 0 10px 0 20px;
     font-family: "inter" , "sans-serif";
 }
@@ -466,7 +464,6 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
 
 .plans--container-card {
     position: relative;
-    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -480,7 +477,6 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
 
 .plans--container-card-expertplus {
     position: relative;
-    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
