@@ -165,6 +165,7 @@ main .main--currency-table-monedas {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
+    display: grid;
     margin: 0 20px 0 10px;
     font-family: "inter" , "sans-serif";
 }
@@ -174,6 +175,7 @@ main .main--currency-table-comisiones {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
+    display: grid;
     margin: 0 auto;
     font-family: "inter" , "sans-serif";
 }
@@ -256,7 +258,7 @@ main .currency--table-container {
 main .currency--table-date{
     width: 240px;
     height: 40px;
-    margin: 0 25px;
+    margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
     background-color: var(--soft_orange);
@@ -289,7 +291,7 @@ main .main--currency-table-comisiones .currency--table-title2 {
 main .currency--table-date2{
     width: 240px;
     height: 40px;
-    margin: 0 25px;
+    margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
     background-color: var(--soft_blue);
@@ -683,3 +685,4 @@ footer .footer--left a{
 footer .footer--right img{
     width: 120px;
 }
+
