@@ -439,7 +439,40 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-/* 
+
 .recommended {
     position: absolute;
-} */
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -10px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin_orange);
+    border-radius: 8px;
+    color: var(--just_white);
+}
+
+.plan--card-title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--warm_black);
+}
+
+.plan--card-price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: var(--warm_black);
+}
+
+.plan--card-price span {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 300;
+    top: -27px;
+    right: 4px;
+}
