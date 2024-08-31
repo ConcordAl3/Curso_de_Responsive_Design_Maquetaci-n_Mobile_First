@@ -465,7 +465,7 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
-    line-height: 6.3rem;
+    line-height: 5.3rem;
     color: var(--warm_black);
 }
 
@@ -475,4 +475,10 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     font-weight: 300;
     top: -27px;
     right: 4px;
+}
+
+.plan--card-saving {
+    font-size: 1.2rem;
+    color: #757575;
+    
 }
