@@ -377,3 +377,23 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     text-align: justify;
     color: #808880;
 }
+
+.bitcoin--img-container {
+    width: 100vw;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('https://i.postimg.cc/9MTnYjs5/bitcoin-baby.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin--img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just_white);
+}
+
