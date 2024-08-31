@@ -256,7 +256,6 @@ main .main--currency-table .currency--table-title2 {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    font-weight: 300;
     color: var(--secondary_blue);
 }
 
@@ -427,13 +426,23 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     color: #757575;
 }
 
+.plans--container-slider {
+    display: flex;
+    gap: 50px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans--container-card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just_white);
     border-radius: 15px;
@@ -442,11 +451,12 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
 
 .plans--container-card-expertplus {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--warm_black);
     border-radius: 15px;
@@ -609,3 +619,4 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     background-repeat: no-repeat;
     vertical-align: text-bottom;
 }
+
