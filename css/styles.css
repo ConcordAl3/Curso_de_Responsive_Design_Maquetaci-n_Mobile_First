@@ -117,6 +117,15 @@ main .main--exchange-container {
     text-align: center;
 }
 
+main .main--tables-container {
+    display: flex;
+    gap: 50px;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 main .main--exchange-container-title {
     width: 90vw;
     min-width: 288px;
@@ -151,7 +160,17 @@ main .main--exchange-container p {
     color: #757575;
 }
 
-main .main--currency-table {
+main .main--currency-table-monedas {
+    width: 70vw;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    scroll-snap-align: center;
+    margin: 0 20px 0 10px;
+    font-family: "inter" , "sans-serif";
+}
+
+main .main--currency-table-comisiones {
     width: 70vw;
     min-width: 235px;
     max-width: 500px;
@@ -160,7 +179,7 @@ main .main--currency-table {
     font-family: "inter" , "sans-serif";
 }
 
-main .main--currency-table .currency--table-title {
+main .main--currency-table-monedas .currency--table-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -251,7 +270,17 @@ main .currency--table-date{
     color: var(--warm_black);
 }
 
-main .main--currency-table .currency--table-title2 {
+main .main--currency-table-comisiones {
+    width: 70vw;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    scroll-snap-align: center;
+    margin: 0 10px 0 20px;
+    font-family: "inter" , "sans-serif";
+}
+
+main .main--currency-table-comisiones .currency--table-title2 {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
