@@ -440,6 +440,32 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.plans--container-card-expertplus {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--warm_black);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plan--basic {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -10px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--secondary_blue);
+    border-radius: 8px;
+    color: var(--just_white);
+}
+
 .recommended {
     position: absolute;
     width: 120px;
@@ -453,12 +479,33 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     color: var(--just_white);
 }
 
+.plan--expertplus {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -10px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--grey);
+    border-radius: 8px;
+    color: var(--just_white);
+}
+
 .plan--card-title {
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--warm_black);
+}
+
+.plan--card-title-expertplus {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--off_white);
 }
 
 .plan--card-price {
@@ -468,6 +515,15 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     line-height: 5.3rem;
     color: var(--warm_black);
 }
+
+.plan--card-price-expertplus {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--just_white);
+}
+
 
 .plan--card-price span {
     position: relative;
@@ -480,6 +536,30 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
 .plan--card-saving {
     font-size: 1.2rem;
     color: #757575;
+}
+
+.plan--basic-card-ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--secondary_blue);
+    font-family: "DM Sans", sans-serif;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan--basic-card-ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://i.postimg.cc/zGsy4Mq7/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
 }
 
 .plan--card-ca {
@@ -501,6 +581,30 @@ sigo en el main, pero ahora hare el apartado de la descripcion del producto y su
     width: 20px;
     height: 20px;
     background-image: url('https://i.postimg.cc/xCZ9HVJS/arrow-right-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+}
+
+.plan--expertplus-card-ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--grey);
+    font-family: "DM Sans", sans-serif;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan--expertplus-card-ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://i.postimg.cc/mZp20qw9/image-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     vertical-align: text-bottom;
